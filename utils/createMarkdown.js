@@ -3,7 +3,6 @@
 const createMarkdown = (data) =>
     
     `# ${data.title}
-![License](https://img.shields.io/badge/License-${data.license}-blue)
     
 ## Description
 ${data.description}
@@ -32,7 +31,8 @@ ${data.testing}
 License: ${data.license}.
     
 ## Questions
-* For questions, feedback, or comments, please contact ${data.email}.\n
+* For questions, feedback, or comments, please contact ${data.email}.
+
 * Feel free to check out more of my work at: https://github/com/${data.username}/.
 `;
 
