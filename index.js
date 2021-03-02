@@ -46,10 +46,9 @@ const inputPrompts = ()=> {
             name: 'testing',
         },
         {
-            type: "list",
-            message: "What license would you like to add for this project?",
+            type: "input",
+            message: 'Would you like to add an MIT license to this project? Enter yes or no.',
             name: "license",
-            choices: ["Apache-2.0", "MIT"]
         },
         {
             type: 'input',
