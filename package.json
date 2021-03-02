@@ -1,0 +1,27 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "Generate a README file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maria-lara/readme-gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maria-lara/readme-genissues"
+  },
+  "homepage": "https://github.com/maria-lara/readme-gen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "package.json": "^2.0.1",
+    "util": "^0.12.3",
+    "util.promisify": "^1.1.1"
+  },
+  "devDependencies": {}
+}
